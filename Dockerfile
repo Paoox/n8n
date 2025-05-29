@@ -1,8 +1,7 @@
 FROM n8nio/n8n
 
-ENV N8N_PORT=3000
-EXPOSE 3000
+# Puerto que expone n8n
+EXPOSE 5678
 
-CMD ["n8n"]
 
 
