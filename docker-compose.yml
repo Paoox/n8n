@@ -13,5 +13,5 @@ services:
       - N8N_BASIC_AUTH_USER=admin
       - N8N_BASIC_AUTH_PASSWORD=admin123
       - N8N_HOST=0.0.0.0
-      - WEBHOOK_TUNNEL_URL=n8n-production-6c684.up.railway.app
+      - WEBHOOK_TUNNEL_URL=n8n-production-a5dc8.up.railway.app
       - ./n8n_data:/home/node/.n8n
