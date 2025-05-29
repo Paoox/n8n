@@ -7,11 +7,11 @@ services:
     container_name: n8n
     restart: unless-stopped
     ports:
-      - 5678:5678
+      - 3000:5678
     environment:
       - N8N_BASIC_AUTH_ACTIVE=true
       - N8N_BASIC_AUTH_USER=admin
       - N8N_BASIC_AUTH_PASSWORD=admin123
       - N8N_HOST=0.0.0.0
-      - WEBHOOK_TUNNEL_URL=worker-production-7c65.up.railway.app
+      - WEBHOOK_TUNNEL_URL=n8n-production-6c684.up.railway.app
       - ./n8n_data:/home/node/.n8n

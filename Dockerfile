@@ -1,7 +1,6 @@
-
-
 FROM n8nio/n8n
 
+ENV PORT=3000
 EXPOSE 3000
 
 CMD ["n8n"]
